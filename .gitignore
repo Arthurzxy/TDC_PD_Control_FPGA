@@ -1,0 +1,38 @@
+# Separate app repository
+app/
+
+# Local assistant/editor state
+.claude/
+
+# Vivado generated output
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+xsim.dir/
+sim/xsim_*/
+
+# Vivado logs/journals/databases
+*.jou
+*.log
+*.pb
+*.wdb
+*.wcfg
+*.str
+*.tmp
+*.backup.jou
+*.backup.log
+
+# Keep IP configuration, ignore generated IP products
+ip/**/*
+!ip/**/
+!ip/**/*.xci
+
+# Python/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+

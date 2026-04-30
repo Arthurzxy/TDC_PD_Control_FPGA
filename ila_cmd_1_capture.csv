@@ -1,0 +1,2 @@
+Sample in Buffer,Sample in Window,TRIGGER,ft_rx_data[31:0],dbg_ft_cmd_ctrl_bus_1[15:15],dbg_ft_cmd_ctrl_bus_2[14:14],ad5686_data1_ft[15:0],ad5686_data2_ft[15:0]
+Radix - UNSIGNED,UNSIGNED,UNSIGNED,HEX,HEX,HEX,HEX,HEX

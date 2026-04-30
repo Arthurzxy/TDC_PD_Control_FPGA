@@ -1,0 +1,160 @@
+PATH 1
+  SLACK = -4.769
+  STARTPOINT_PIN = dbg_ad5686_toggle_ft_reg/C
+  ENDPOINT_PIN = dbg_ad5686_toggle_sync_sys_reg[0]/D
+  STARTPOINT_CLOCK = ft_clk
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 0
+
+PATH 2
+  SLACK = -4.769
+  STARTPOINT_PIN = dbg_ad5686_toggle_ft_reg/C
+  ENDPOINT_PIN = dbg_ad5686_toggle_sync_sys_reg[0]/D
+  STARTPOINT_CLOCK = ft_clk
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 0
+
+PATH 3
+  SLACK = -4.760
+  STARTPOINT_PIN = ft_hb_toggle_reg/C
+  ENDPOINT_PIN = ft_hb_sync_sys_reg[0]/D
+  STARTPOINT_CLOCK = ft_clk
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 0
+
+PATH 4
+  SLACK = -4.760
+  STARTPOINT_PIN = ft_hb_toggle_reg/C
+  ENDPOINT_PIN = ft_hb_sync_sys_reg[0]/D
+  STARTPOINT_CLOCK = ft_clk
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 0
+
+PATH 5
+  SLACK = -4.701
+  STARTPOINT_PIN = dbg_ft_rx_toggle_ft_reg/C
+  ENDPOINT_PIN = dbg_ft_rx_toggle_sync_sys_reg[0]/D
+  STARTPOINT_CLOCK = ft_clk
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 0
+
+PATH 6
+  SLACK = -4.701
+  STARTPOINT_PIN = dbg_ft_rx_toggle_ft_reg/C
+  ENDPOINT_PIN = dbg_ft_rx_toggle_sync_sys_reg[0]/D
+  STARTPOINT_CLOCK = ft_clk
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 0
+
+PATH 7
+  SLACK = -2.859
+  STARTPOINT_PIN = u_gpx2/u_cfg/config_done_reg/C
+  ENDPOINT_PIN = u_gpx2/cfg_done_lclk_ff_reg[0]/D
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = gpx2_lclk_in
+  LOGIC_LEVELS = 0
+
+PATH 8
+  SLACK = -2.859
+  STARTPOINT_PIN = u_gpx2/u_cfg/config_done_reg/C
+  ENDPOINT_PIN = u_gpx2/cfg_done_lclk_ff_reg[0]/D
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = gpx2_lclk_in
+  LOGIC_LEVELS = 0
+
+PATH 9
+  SLACK = -2.179
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_enable_out_reg[3]/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[38].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 10
+  SLACK = -2.179
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_enable_out_reg[3]/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[38].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 11
+  SLACK = -2.149
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_enable_out_reg[3]/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[39].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 12
+  SLACK = -2.149
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_enable_out_reg[3]/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[39].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 13
+  SLACK = -2.140
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_en_temp_reg/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[38].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 14
+  SLACK = -2.140
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_en_temp_reg/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[38].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 15
+  SLACK = -2.111
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_en_temp_reg/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[39].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 16
+  SLACK = -2.111
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_en_temp_reg/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[39].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 17
+  SLACK = -1.975
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_enable_out_reg[3]/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[45].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 18
+  SLACK = -1.975
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_enable_out_reg[3]/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[45].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 19
+  SLACK = -1.937
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_en_temp_reg/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[45].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
+PATH 20
+  SLACK = -1.937
+  STARTPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/xsdb_memory_read_inst/multiple_read_latency.read_en_temp_reg/C
+  ENDPOINT_PIN = u_ila_chain_ft/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[45].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/REGCEB
+  STARTPOINT_CLOCK = clk_out1_clk_wiz_1
+  ENDPOINT_CLOCK = clk_out1_clk_wiz_1
+  LOGIC_LEVELS = 1
+
