@@ -2,6 +2,11 @@
 
 module tb_gpx2_ft601_chain_post;
     localparam integer NUM_CH = 4;
+`ifdef GPX2_CHAIN_CLK_HALF_NS
+    localparam real CLK_HALF_NS = `GPX2_CHAIN_CLK_HALF_NS;
+`else
+    localparam real CLK_HALF_NS = 2.0;
+`endif
 
     reg clk = 1'b0;
     reg rst = 1'b1;
@@ -30,7 +35,7 @@ module tb_gpx2_ft601_chain_post;
     integer error_count = 0;
     reg [31:0] cap_data [0:255];
 
-    always #2 clk = ~clk;
+    always #(CLK_HALF_NS) clk = ~clk;
 
     gpx2_ft601_chain_dut dut (
         .clk(clk),
